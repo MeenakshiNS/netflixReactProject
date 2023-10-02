@@ -1,0 +1,22 @@
+.navbar{
+    position:fixed;
+    top:0;/*dbt  top il thanne align cheyyan vendi*/
+    width:100%;
+    height: 30px;
+    padding: 20px;
+    display:flex;/*dbt*/
+    justify-content: space-between;  /*dbt*/
+    background-color: #111;
+}
+
+.logo{
+    position:fixed;
+    left:20px;
+    width:80px;
+
+}
+.avatar{
+    position: fixed;
+    right:20px;
+    width:30px;
+}
