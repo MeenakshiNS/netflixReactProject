@@ -1,9 +1,9 @@
 #Netflix Project using REACT 
 
-IMAGE 1
-![image](https://github.com/MeenakshiNS/netflixReactProject/assets/130451378/a6502a25-cd38-423a-9018-151464ddcc0b)
+![image](https://github.com/MeenakshiNS/netflixReactProject/assets/130451378/35a10c05-d4c9-42c0-aa04-0af9b8542ae0)
 
-![image](https://github.com/MeenakshiNS/netflixReactProject/assets/130451378/de65b585-ca5d-4db4-b5ae-4cb434ba0e5b)
+![image](https://github.com/MeenakshiNS/netflixReactProject/assets/130451378/9e27761e-7659-4f00-95ad-f1a2b7a92fd3)
+
 
 
 
