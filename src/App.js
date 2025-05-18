@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Navigate replace to="signup" />} />
-        <Route path="home" element={<Home />} />
+        <Route path="dashboard" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
         {/* <Route path="*" element={<PageNotFound />} /> */}
