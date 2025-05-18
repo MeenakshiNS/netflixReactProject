@@ -5,7 +5,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 function App() {
   return (
-    <BrowserRouter basename="/my-app">
+    <BrowserRouter>
       <Routes>
         <Route index element={<Navigate replace to="signup" />} />
         <Route path="dashboard" element={<Home />} />
