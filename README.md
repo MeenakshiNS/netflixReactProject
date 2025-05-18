@@ -109,3 +109,100 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+PROJECT PLANS:
+✅ BASIC FEATURES (MVP)
+Frontend + Backend (Full-stack)
+
+✅ User Authentication (Signup, Login, Logout)
+
+✅ Home Page with Popular & Trending Movies
+
+✅ Movie Detail Page (Title, Summary, Genre, Duration, Trailer)
+
+✅ Category-wise browsing (e.g., Action, Romance, Sci-Fi)
+
+✅ Search movies by title
+
+✅ Responsive UI (for mobile, tablet, desktop)
+
+✅ Watchlist / Favorites
+
+✅ Basic video player integration (YouTube / dummy video)
+
+⚙️ INTERMEDIATE FEATURES
+User & Media Interaction
+
+🔄 Continue Watching section
+
+🌟 User Ratings and Reviews
+
+📝 Comments on movies/series
+
+🧠 Recommendations based on watch history
+
+📁 Profile Page (User Info, Watchlist, History)
+
+🌙 Dark Mode toggle
+
+🌐 Multi-language support (i18n)
+
+Admin Panel
+
+🛠️ Add/Edit/Delete Movies
+
+👤 Manage Users
+
+📊 View platform usage statistics
+
+🚀 ADVANCED FEATURES
+Streaming & Media
+
+📺 Custom Video Player (with subtitles, skip intro, playback speed)
+
+📶 Adaptive bitrate streaming (e.g., using HLS / DASH)
+
+⏳ Watch history (per movie timestamp)
+
+🗃️ Download for offline viewing (if you're going native or using PWA)
+
+Personalization & AI
+
+🤖 AI-based Recommendation System (e.g., Collaborative Filtering or Content-based Filtering)
+
+🎯 Personalized homepage (dynamic banners, rows based on preference)
+
+🧠 Sentiment Analysis on reviews
+
+Real-time & Social
+
+💬 Real-time Chat for Watch Parties (e.g., WebSocket)
+
+👥 Invite friends to watch together
+
+🧑‍🤝‍🧑 Multi-profile support per account (e.g., Kids profile)
+
+🔒 SECURITY & PERFORMANCE
+🔐 JWT + Refresh Tokens for secure sessions
+
+🛡️ Rate limiting, input sanitization
+
+🏗️ Caching with Redis for popular content
+
+📦 Lazy loading, code splitting
+
+📈 Analytics tracking (watch events, clicks)
+
+🧪 TECH STACK INTEGRATIONS (Optional Ideas)
+💾 MongoDB + Express + React + Node.js (MERN)
+
+🧠 Use TMDB API or build your own
+
+☁️ AWS S3 for storing thumbnails and videos
+
+📹 Mux or Cloudflare Stream for video hosting
+
+🔍 Elasticsearch for fast & fuzzy movie search
+
+🔧 Dockerize the app for easy deployment

@@ -1,20 +1,19 @@
-
-import './App.css';
-import Banner from './Components/Banner/Banner';
-import NavBar from './Components/NavBar/NavBar';
-import RowPost from './Components/RowPost/RowPost';
-import {originals,action} from './urls'
-
+// import "./App.css";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Home from "../src/pages/Home"
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 function App() {
   return (
-    <>
-    <NavBar/>
-    <Banner/>
-    <RowPost url={originals} title='Netflix Originals'/>
-    <RowPost url={action} title='Action ' isSmall/>
-    
-    </>
-   
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Navigate replace to="signup" />} />
+        <Route path="home" element={<Home />} />
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<SignUp />} />
+        {/* <Route path="*" element={<PageNotFound />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
