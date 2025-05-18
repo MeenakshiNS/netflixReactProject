@@ -1,3 +1,6 @@
+LIVE ON 🎉: https://netflixreactproject.onrender.com/
+
+
 #Netflix Project using REACT 
 IMAGE 1
 ![image](https://github.com/MeenakshiNS/netflixReactProject/assets/130451378/35a10c05-d4c9-42c0-aa04-0af9b8542ae0)
